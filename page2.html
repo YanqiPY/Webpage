@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tickets Table</title>
+</head>
+
+<style>
+    th[scope="col"] {
+        color: white;
+        background-color: black;
+        text-align:center;
+    }
+
+    th[scope="row"] {
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+
+    td[scope="r1"] {
+        background-color: lightgray;
+        text-align: center;
+    }
+
+    td[scope="r2"] {
+        background-color: ghostwhite;
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+        </tr>
+        <tr>
+            <th scope="row">1pm</th>
+            <td scope="r1">Math</td>
+            <td scope="r1">Art</td>
+            <td scope="r1">Science</td>
+        </tr>
+        <tr>
+            <th scope="row">2pm</th>
+            <td scope="r2">Science</td>
+            <td scope="r2">Writing</td>
+            <td scope="r2">Reading</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
